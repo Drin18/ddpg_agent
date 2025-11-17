@@ -1,0 +1,23 @@
+# --- Environments ---
+# Ignores the entire virtual environment folder
+.venv/
+
+# --- Compiled Files ---
+# Ignores Python's compiled code (byte-code)
+__pycache__/
+*.pyc
+*.o
+*.so
+
+# checkpoint files
+*.pt
+
+# --- Logs, Plots, and Temporary Files ---
+# Ignores training log files
+*.log
+# Ignores the plot created by the training script
+*.png
+*.svg
+# Ignores temporary operating system files
+.DS_Store
+Thumbs.db
