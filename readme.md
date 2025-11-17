@@ -16,7 +16,7 @@ The agent is trained to swing up and stabilize the inverted pendulum.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <YOUR_REPO_URL>
+    git clone https://github.com/Drin18/ddpg_agent.git
     cd DDPG-Pendulum-v1
     ```
 
