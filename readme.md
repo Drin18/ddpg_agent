@@ -6,8 +6,8 @@ The agent is trained to swing up and stabilize the inverted pendulum.
 
 ## Project Structure
 
-* `DDPG_Pendulum.py` / `main.py`: Primary script(s) containing the DDPG agent definition, network architectures, and the training loop.
-* `ddpg_demo.py`: Script used for loading the pre-trained weights and visualizing the agent's performance.
+* `DDPG_Pendulum.py`: Primary script(s) containing the DDPG agent definition, network architectures, and the training loop.
+* `demo.py`: Script used for loading the pre-trained weights and visualizing the agent's performance.
 * `requirements.txt`: Lists all Python package dependencies (PyTorch, Gymnasium, NumPy, etc.).
 * `models/`: Directory containing the saved, **pre-trained weights (`weights.pth`)**.
 * `.gitignore`: Configured to ignore environment files and compiled code, but **includes** the model weights.
@@ -42,4 +42,4 @@ The agent is trained to swing up and stabilize the inverted pendulum.
 To visualize the pre-trained agent's performance immediately, execute the demo script:
 
 ```bash
-python ddpg_demo.py
+python demo.py
